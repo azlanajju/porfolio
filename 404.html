@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     background-color: #333333;
 }
 .container
@@ -40,6 +41,7 @@ body{
 }
 .container .btn
 {
+  font-weight: bold;
      filter: drop-shadow(1px 1px 8px #fff);
     width: 170px;
     height: 50px;
@@ -51,6 +53,9 @@ body{
     font-size: 18px;
     border-radius: 20px;
     margin-top: 20px;
+}
+.btn:hover{
+  box-shadow: 2px 3px#72ADDE;
 }
 p{
   padding: 20px;
@@ -64,8 +69,9 @@ p{
         <img src="error.gif" alt="">
         
         <p>Oops! Page not found  •́  ‿ ,•̀ </p>
-        
-        <button href="index.html" class="btn">Go Back</button>
+        <a href="/index.html">
+        <button  class="btn">HOME</button>
+        </a>
     </div>
 </body>
 </html>
