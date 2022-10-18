@@ -31,6 +31,7 @@ section{
     padding: 100px 0;
 }
 .max-width{
+  
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
@@ -559,8 +560,18 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.linkicon a i{
+  color:white;
+  margin: 10px;
+  font-size: 20px;
+}
 
 
+.linkicon a i:hover{
+  color:#763C32;
+  margin: 10px;
+  font-size: 20px;
+}
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
